@@ -35,4 +35,9 @@ void main() {
   //Замена символов
   String replacing = 'Replace spaces with underscores';
   print(replacing.replaceAll(' ', '_'));
+
+  //Проверка строки на только пробелы
+
+  String myEmpty = '              ';
+  print(myEmpty.trim().isEmpty);
 }
